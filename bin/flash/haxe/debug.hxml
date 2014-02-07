@@ -1,0 +1,13 @@
+-main ApplicationMain 
+-lib HaxePunk
+-lib openfl:1.2.2
+-cp src
+-D tools=1.2.8
+-D web
+-swf-version 11.2
+-swf bin/flash/bin/Main.swf
+-swf-header 800:600:60:333333
+-cp bin/flash/haxe
+#--remap nme:flash
+--no-inline
+-debug

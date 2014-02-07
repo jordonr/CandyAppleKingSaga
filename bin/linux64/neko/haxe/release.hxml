@@ -1,0 +1,14 @@
+-main ApplicationMain 
+-lib HaxePunk
+-lib openfl:1.2.2
+-lib openfl-native
+-cp src
+-D tools=1.2.8
+-D lime_native
+-D no-compilation
+-D linux
+-D desktop
+-cp bin/linux64/neko/haxe
+-neko bin/linux64/neko/obj/ApplicationMain.n
+--macro allowPackage("flash")
+--macro keep("Main")

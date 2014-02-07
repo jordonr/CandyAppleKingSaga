@@ -1,0 +1,17 @@
+-main ApplicationMain 
+-lib HaxePunk
+-lib openfl:1.2.2
+-lib openfl-native
+-lib hxlibc
+-cp src
+-D tools=1.2.8
+-D lime_native
+-D no-compilation
+-D linux
+-D desktop
+-cpp bin/linux64/cpp/obj/
+-cp bin/linux64/cpp/haxe
+--macro allowPackage("flash")
+--macro keep("Main")
+-debug
+-D no-compilation
